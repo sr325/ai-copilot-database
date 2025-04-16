@@ -1,0 +1,12 @@
+streamlit
+sqlalchemy
+psycopg2-binary
+uuid
+pandas
+langchain
+langchain-community
+langsmith
+langgraph
+python-dotenv
+llama-cpp-python
+langchain-ollama
