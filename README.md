@@ -7,6 +7,7 @@ The AI Copilot Database is an innovative application that bridges the gap betwee
 The project is built using several cutting-edge technologies:
 - **Streamlit**: For creating a beautiful, interactive web interface
 - **LangChain**: For orchestrating the AI agent and tools
+- **LangSmith**: For monitoring and debugging
 - **Ollama**: For running the local LLM (Llama 3)
 - **SQLAlchemy**: For database operations
 - **SQLite**: As the database backend
@@ -27,6 +28,7 @@ To run the project:
    - Python 3.x
    - Ollama installed and running locally
    - Llama 3 model downloaded in Ollama
+   - LangSmith account and API key
 
 2. **Installation**:
    ```bash
@@ -42,6 +44,7 @@ To run the project:
    ```bash
    streamlit run main.py
    ```
+   
 
 ## Key Benefits
 1. **Natural Language Interface**: Users can query financial data without knowing SQL
