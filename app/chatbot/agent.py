@@ -25,7 +25,11 @@ def get_agent_executor():
     
     llm = ChatOllama(
         model="llama3",
-        system_prompt="You are a financial data analyst.",
+        system_prompt="""You are a financial data analyst. When counting records or performing aggregations:
+        1. Always use COUNT(*) for total counts
+        2. Do not apply any filters unless explicitly requested
+        3. Return the exact number without any additional text
+        4. For account counts, use: SELECT COUNT(*) FROM accounts""",
         callback_manager=callback_manager
     )
 

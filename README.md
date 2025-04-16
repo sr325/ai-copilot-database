@@ -3,6 +3,13 @@
 ## Introduction
 The AI Copilot Database is an innovative application that bridges the gap between natural language and database queries. It allows users to interact with their financial database using plain English, making data analysis more accessible to non-technical users. Built with modern AI technologies and a user-friendly interface, this project demonstrates the power of combining large language models with traditional database systems.
 
+## Features
+- Natural Language to SQL Query Conversion
+- Real-time Financial Data Analysis
+- Interactive Streamlit Interface
+- Local LLM Processing with Ollama
+- LangSmith Integration for Monitoring and Debugging
+
 ## Technical Overview
 The project is built using several cutting-edge technologies:
 - **Streamlit**: For creating a beautiful, interactive web interface
@@ -44,7 +51,6 @@ To run the project:
    ```bash
    streamlit run main.py
    ```
-   
 
 ## Key Benefits
 1. **Natural Language Interface**: Users can query financial data without knowing SQL
